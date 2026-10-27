@@ -1,0 +1,50 @@
+{
+  "project_id": 1,
+  "release_id": null,
+  "recency_window_days": 30,
+  "dry_run": false,
+  "test_runs": {
+    "count": 20,
+    "status_weights": {
+      "Passed": 60,
+      "Failed": 20,
+      "Blocked": 10,
+      "Caution": 10
+    }
+  },
+  "incidents": {
+    "count": 10,
+    "types": ["Bug", "Enhancement", "Issue", "Risk"],
+    "priority_weights": {
+      "Critical": 10,
+      "High": 25,
+      "Medium": 45,
+      "Low": 20
+    },
+    "statuses": ["Open", "In Progress", "Resolved", "Closed"]
+  },
+  "tasks": {
+    "count": 10,
+    "status_weights": {
+      "Not Started": 20,
+      "In Progress": 40,
+      "Completed": 25,
+      "Blocked": 10,
+      "Deferred": 5
+    },
+    "min_effort_hours": 1.0,
+    "max_effort_hours": 16.0
+  },
+  "allocations": {
+    "min_allocation_hours": 20.0,
+    "max_allocation_hours": 40.0,
+    "time_entry_count": 20,
+    "min_time_entry_hours": 0.5,
+    "max_time_entry_hours": 8.0
+  },
+  "risks": {
+    "count": 5,
+    "impact_weights": {"Critical": 10, "High": 25, "Medium": 40, "Low": 20, "Very Low": 5},
+    "probability_weights": {"Very High": 5, "High": 20, "Medium": 40, "Low": 25, "Very Low": 10}
+  }
+}

@@ -221,3 +221,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---------------------------------------------------------------------------
+# Spira data freshener: payloads, logs, and generated output
+# ---------------------------------------------------------------------------
+
+# Generated output payloads and log files live in dedicated dirs.
+# Keep the dirs (via .gitkeep) but ignore everything written into them.
+/output/*
+/logs/*
+!/output/.gitkeep
+!/logs/.gitkeep
+
+# Timestamped output payloads, in case any are written to the repo root.
+/payload_*.json
+
+# Ad-hoc input payloads and demo/injection files scattered in the root.
+/injection-*.json
+/iqvia-*.json
+/dry-run-payload.json
+/fresh-payload.json
+
+# The live config is environment-specific; the committed .example is the template.
+/freshener-config.json
+
+# ...but always keep the tracked samples/templates.
+!/sample-payload.json
+!/freshener-config.example.json

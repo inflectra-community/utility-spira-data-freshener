@@ -1,0 +1,347 @@
+{
+  "metadata": {
+    "generated_at": "2026-06-17T06:56:18Z",
+    "project_id": 45,
+    "version": "1.0.0"
+  },
+  "test_runs": [
+    {
+      "test_case_id": 789,
+      "release_id": 469,
+      "tester_id": 1,
+      "execution_status_id": 2,
+      "execution_date": "2026-06-10T06:56:18Z",
+      "name": "Test Run for TC-789"
+    },
+    {
+      "test_case_id": 788,
+      "release_id": 469,
+      "tester_id": 1,
+      "execution_status_id": 6,
+      "execution_date": "2026-06-02T06:56:18Z",
+      "name": "Test Run for TC-788"
+    },
+    {
+      "test_case_id": 787,
+      "release_id": 471,
+      "tester_id": 22,
+      "execution_status_id": 2,
+      "execution_date": "2026-05-26T06:56:18Z",
+      "name": "Test Run for TC-787"
+    },
+    {
+      "test_case_id": 786,
+      "release_id": 469,
+      "tester_id": 1,
+      "execution_status_id": 1,
+      "execution_date": "2026-05-24T06:56:18Z",
+      "name": "Test Run for TC-786"
+    },
+    {
+      "test_case_id": 785,
+      "release_id": 469,
+      "tester_id": 1,
+      "execution_status_id": 2,
+      "execution_date": "2026-05-23T06:56:18Z",
+      "name": "Test Run for TC-785"
+    },
+    {
+      "test_case_id": 784,
+      "release_id": 469,
+      "tester_id": 1,
+      "execution_status_id": 2,
+      "execution_date": "2026-05-18T06:56:18Z",
+      "name": "Test Run for TC-784"
+    },
+    {
+      "test_case_id": 783,
+      "release_id": 469,
+      "tester_id": 22,
+      "execution_status_id": 2,
+      "execution_date": "2026-05-27T06:56:18Z",
+      "name": "Test Run for TC-783"
+    },
+    {
+      "test_case_id": 782,
+      "release_id": 469,
+      "tester_id": 1,
+      "execution_status_id": 1,
+      "execution_date": "2026-06-17T06:56:18Z",
+      "name": "Test Run for TC-782"
+    },
+    {
+      "test_case_id": 789,
+      "release_id": 471,
+      "tester_id": 1,
+      "execution_status_id": 1,
+      "execution_date": "2026-05-18T06:56:18Z",
+      "name": "Test Run for TC-789"
+    },
+    {
+      "test_case_id": 788,
+      "release_id": 471,
+      "tester_id": 22,
+      "execution_status_id": 5,
+      "execution_date": "2026-06-08T06:56:18Z",
+      "name": "Test Run for TC-788"
+    },
+    {
+      "test_case_id": 787,
+      "release_id": 471,
+      "tester_id": 1,
+      "execution_status_id": 1,
+      "execution_date": "2026-06-08T06:56:18Z",
+      "name": "Test Run for TC-787"
+    },
+    {
+      "test_case_id": 786,
+      "release_id": 471,
+      "tester_id": 22,
+      "execution_status_id": 6,
+      "execution_date": "2026-05-22T06:56:18Z",
+      "name": "Test Run for TC-786"
+    },
+    {
+      "test_case_id": 785,
+      "release_id": 471,
+      "tester_id": 1,
+      "execution_status_id": 2,
+      "execution_date": "2026-06-10T06:56:18Z",
+      "name": "Test Run for TC-785"
+    },
+    {
+      "test_case_id": 784,
+      "release_id": 471,
+      "tester_id": 22,
+      "execution_status_id": 6,
+      "execution_date": "2026-06-17T06:56:18Z",
+      "name": "Test Run for TC-784"
+    },
+    {
+      "test_case_id": 783,
+      "release_id": 469,
+      "tester_id": 22,
+      "execution_status_id": 1,
+      "execution_date": "2026-06-17T06:56:18Z",
+      "name": "Test Run for TC-783"
+    },
+    {
+      "test_case_id": 782,
+      "release_id": 471,
+      "tester_id": 1,
+      "execution_status_id": 5,
+      "execution_date": "2026-05-25T06:56:18Z",
+      "name": "Test Run for TC-782"
+    },
+    {
+      "test_case_id": 789,
+      "release_id": 469,
+      "tester_id": 22,
+      "execution_status_id": 1,
+      "execution_date": "2026-06-05T06:56:18Z",
+      "name": "Test Run for TC-789"
+    },
+    {
+      "test_case_id": 788,
+      "release_id": 469,
+      "tester_id": 1,
+      "execution_status_id": 1,
+      "execution_date": "2026-06-13T06:56:18Z",
+      "name": "Test Run for TC-788"
+    },
+    {
+      "test_case_id": 787,
+      "release_id": 471,
+      "tester_id": 1,
+      "execution_status_id": 2,
+      "execution_date": "2026-06-08T06:56:18Z",
+      "name": "Test Run for TC-787"
+    },
+    {
+      "test_case_id": 786,
+      "release_id": 469,
+      "tester_id": 22,
+      "execution_status_id": 2,
+      "execution_date": "2026-05-20T06:56:18Z",
+      "name": "Test Run for TC-786"
+    }
+  ],
+  "incidents": [
+    {
+      "name": "[Bug] Settings panel causes session timeout unexpectedly",
+      "description": "Summary: File upload handler returns incorrect results.\n\nSteps:\n- Filter results by date range.\n- the application throws an unhandled exception.\n\nImpact: Affects all users in the affected module. Workaround: Use the legacy interface as a temporary measure.",
+      "incident_type_id": 1,
+      "priority_id": 1,
+      "incident_status_id": 4,
+      "detected_release_id": 469,
+      "owner_id": 22,
+      "detected_by_id": 22,
+      "creation_date": "2026-05-21T03:16:42Z"
+    },
+    {
+      "name": "Issue in Payment module — displays stale data after refresh",
+      "description": "Summary: Settings panel throws 500 on empty input.\n\nSteps:\n- Enter a value exceeding 255 characters.\n- the UI becomes unresponsive.\n\nImpact: Causes data inconsistency in reports. Workaround: Clear browser cache and cookies.",
+      "incident_type_id": 1,
+      "priority_id": 2,
+      "incident_status_id": 3,
+      "detected_release_id": 471,
+      "owner_id": 22,
+      "detected_by_id": 1,
+      "creation_date": "2026-05-19T06:35:54Z"
+    },
+    {
+      "name": "Email integration breaks pagination logic (Enhancement)",
+      "description": "Reproducible on Chrome 119. Steps to reproduce:\n1. Navigate to Audit log viewer.\n2. Upload a file larger than 10 MB.\n3. Observe that the user is redirected to an unexpected page.\n\nExpected: The operation should complete successfully with a confirmation message.\nActual: The page goes blank with no error message.",
+      "incident_type_id": 1,
+      "priority_id": 3,
+      "incident_status_id": 3,
+      "detected_release_id": 471,
+      "owner_id": 1,
+      "detected_by_id": 1,
+      "creation_date": "2026-06-17T01:33:48Z"
+    },
+    {
+      "name": "Issue: causes session timeout unexpectedly when using Search module",
+      "description": "This issue was identified during exploratory testing.\n\nComponent: Email integration\nSeverity: Low\n\nDescription:\nthe system logs an error but shows success to the user. This occurs consistently when trigger a concurrent api request. The data should be persisted and reflected immediately.",
+      "incident_type_id": 1,
+      "priority_id": 3,
+      "incident_status_id": 3,
+      "detected_release_id": 471,
+      "owner_id": 22,
+      "detected_by_id": 1,
+      "creation_date": "2026-06-04T13:51:04Z"
+    },
+    {
+      "name": "[Enhancement] Settings panel does not validate input correctly",
+      "description": "This enhancement was identified during exploratory testing.\n\nComponent: API gateway\nSeverity: Medium\n\nDescription:\nthe application throws an unhandled exception. This occurs consistently when switch between user roles. The API should return HTTP 200 with the correct payload.",
+      "incident_type_id": 1,
+      "priority_id": 3,
+      "incident_status_id": 4,
+      "detected_release_id": 471,
+      "owner_id": 1,
+      "detected_by_id": 1,
+      "creation_date": "2026-05-28T22:29:33Z"
+    },
+    {
+      "name": "Bug: Reporting engine causes session timeout unexpectedly",
+      "description": "Reproducible on Chrome 120. Steps to reproduce:\n1. Navigate to Login page.\n2. Submit the form with an empty required field.\n3. Observe that duplicate entries appear in the list.\n\nExpected: The user should remain on the current page.\nActual: An HTTP 500 error is returned instead.",
+      "incident_type_id": 1,
+      "priority_id": 3,
+      "incident_status_id": 4,
+      "detected_release_id": 471,
+      "owner_id": 22,
+      "detected_by_id": 22,
+      "creation_date": "2026-06-06T04:35:22Z"
+    },
+    {
+      "name": "Authentication service fails on concurrent requests (Enhancement)",
+      "description": "Summary: Login page ignores user permissions.\n\nSteps:\n- Navigate away and return to the page.\n- the data is not saved correctly.\n\nImpact: Degrades performance for concurrent users. Workaround: Refresh the page and retry.",
+      "incident_type_id": 1,
+      "priority_id": 2,
+      "incident_status_id": 4,
+      "detected_release_id": 471,
+      "owner_id": 22,
+      "detected_by_id": 22,
+      "creation_date": "2026-05-30T05:32:47Z"
+    },
+    {
+      "name": "Dashboard returns incorrect results (Enhancement)",
+      "description": "This enhancement was identified during integration testing.\n\nComponent: User profile\nSeverity: Medium\n\nDescription:\nthe page displays a blank screen. This occurs consistently when filter results by date range. The API should return HTTP 200 with the correct payload.",
+      "incident_type_id": 1,
+      "priority_id": 3,
+      "incident_status_id": 1,
+      "detected_release_id": 471,
+      "owner_id": 1,
+      "detected_by_id": 22,
+      "creation_date": "2026-06-13T11:33:44Z"
+    },
+    {
+      "name": "[Issue] Admin console causes session timeout unexpectedly",
+      "description": "This issue was identified during exploratory testing.\n\nComponent: Payment module\nSeverity: Low\n\nDescription:\nthe user is redirected to an unexpected page. This occurs consistently when switch between user roles. The data should be persisted and reflected immediately.",
+      "incident_type_id": 1,
+      "priority_id": 1,
+      "incident_status_id": 1,
+      "detected_release_id": 471,
+      "owner_id": 1,
+      "detected_by_id": 1,
+      "creation_date": "2026-06-14T04:12:56Z"
+    },
+    {
+      "name": "Authentication service returns incorrect results (Enhancement)",
+      "description": "Summary: User profile returns incorrect results.\n\nSteps:\n- Export data to CSV format.\n- the UI becomes unresponsive.\n\nImpact: Affects all users in the affected module. Workaround: Perform the operation in smaller batches.",
+      "incident_type_id": 1,
+      "priority_id": 2,
+      "incident_status_id": 3,
+      "detected_release_id": 469,
+      "owner_id": 22,
+      "detected_by_id": 1,
+      "creation_date": "2026-05-21T05:55:18Z"
+    }
+  ],
+  "tasks": [],
+  "resource_allocations": [
+    {
+      "user_id": 22,
+      "release_id": 469,
+      "availability_percentage": 54.402171996675804
+    },
+    {
+      "user_id": 22,
+      "release_id": 471,
+      "availability_percentage": 70.31163159781195
+    },
+    {
+      "user_id": 1,
+      "release_id": 469,
+      "availability_percentage": 75.20551631965054
+    },
+    {
+      "user_id": 1,
+      "release_id": 471,
+      "availability_percentage": 89.1913535465155
+    }
+  ],
+  "time_entries": [],
+  "risks": [
+    {
+      "name": "Potential block release timeline in Search indexer",
+      "description": "There is a risk that Third-party integration could expose sensitive data.\n\nThis was identified during sprint planning review.\nLikelihood increases when a dependent service becomes unresponsive.\n\nRecommended action: Schedule periodic security audits",
+      "risk_impact_id": 3,
+      "risk_probability_id": 4,
+      "owner_id": 1,
+      "release_id": 469
+    },
+    {
+      "name": "Risk: Database cluster may exceed budget thresholds",
+      "description": "Risk identified for Load balancer.\n\nScenario: Load balancer may exceed capacity limits under certain conditions.\n\nPotential impact: Data loss or corruption requiring manual recovery\nMitigation: Introduce circuit breakers and graceful degradation",
+      "risk_impact_id": 5,
+      "risk_probability_id": 3,
+      "owner_id": 22,
+      "release_id": 469
+    },
+    {
+      "name": "Potential miss SLA targets in Email delivery service",
+      "description": "Summary: Database cluster — potential to fail silently.\n\nContext: third-party API changes its contract.\nConsequence: Service disruption affecting all end users.\nProposed mitigation: Conduct regular load testing.",
+      "risk_impact_id": 3,
+      "risk_probability_id": 3,
+      "owner_id": 1,
+      "release_id": 469
+    },
+    {
+      "name": "API gateway — expose sensitive data risk",
+      "description": "Risk identified for Email delivery service.\n\nScenario: Email delivery service may fail silently under certain conditions.\n\nPotential impact: Revenue loss due to downtime\nMitigation: Allocate buffer in the release timeline",
+      "risk_impact_id": 4,
+      "risk_probability_id": 3,
+      "owner_id": 1,
+      "release_id": 469
+    },
+    {
+      "name": "Risk: Logging infrastructure may expose sensitive data",
+      "description": "There is a risk that Monitoring stack could fail silently.\n\nThis was identified during operational readiness review.\nLikelihood increases when configuration changes are deployed without review.\n\nRecommended action: Introduce circuit breakers and graceful degradation",
+      "risk_impact_id": 4,
+      "risk_probability_id": 2,
+      "owner_id": 22,
+      "release_id": 471
+    }
+  ]
+}
